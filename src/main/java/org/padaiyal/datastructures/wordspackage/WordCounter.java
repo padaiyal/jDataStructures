@@ -1,4 +1,4 @@
-package org.padaiyal.mavenprojecttemplate.wordspackage;
+package org.padaiyal.datastructures.wordspackage;
 
 import java.util.Objects;
 import java.util.regex.Matcher;

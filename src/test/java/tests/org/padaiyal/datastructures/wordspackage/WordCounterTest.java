@@ -1,11 +1,11 @@
-package tests.org.padaiyal.mavenprojecttemplate.wordspackage;
+package tests.org.padaiyal.datastructures.wordspackage;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.converter.ConvertWith;
 import org.junit.jupiter.params.provider.CsvSource;
-import org.padaiyal.mavenprojecttemplate.parameterconverters.ExceptionClassConverter;
-import org.padaiyal.mavenprojecttemplate.wordspackage.WordCounter;
+import org.padaiyal.datastructures.parameterconverters.ExceptionClassConverter;
+import org.padaiyal.datastructures.wordspackage.WordCounter;
 
 /**
  * Tests the WordCounter class.

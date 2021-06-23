@@ -1,9 +1,9 @@
-package tests.org.padaiyal.mavenprojecttemplate.parameterconverters;
+package tests.org.padaiyal.datastructures.parameterconverters;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.converter.ArgumentConversionException;
-import org.padaiyal.mavenprojecttemplate.parameterconverters.ExceptionClassConverter;
+import org.padaiyal.datastructures.parameterconverters.ExceptionClassConverter;
 
 /**
  * Tests the functionality of ExceptionClassConverter.
