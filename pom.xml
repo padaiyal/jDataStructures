@@ -6,8 +6,8 @@
  
   <!-- Update the following three entries -->
   <groupId>org.padaiyal</groupId>
-  <artifactId>mavenprojecttemplate</artifactId>
-  <version>2021.04.26</version>
+  <artifactId>datastructures</artifactId>
+  <version>2021.06.26</version>
 
   <parent>
     <groupId>org.padaiyal</groupId>
@@ -16,11 +16,25 @@
     <relativePath>jPopper</relativePath>
   </parent>
 
+  <properties>
+  <dependency.jI18n.version>2021.01.14</dependency.jI18n.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.java.padaiyal.utilities</groupId>
+      <artifactId>i18n</artifactId>
+      <version>${dependency.jI18n.version}</version>
+      <scope>system</scope>
+      <systemPath>${pom.basedir}/i18n-2021.01.14.jar</systemPath>
+    </dependency>
+  </dependencies>
+
   <distributionManagement>
     <repository>
       <id>github</id>
-      <name>jMavenProjectTemplate MVN package deployment</name>
-      <url>https://maven.pkg.github.com/padaiyal/jMavenProjectTemplate</url>
+      <name>jDataStructures MVN package deployment</name>
+      <url>https://maven.pkg.github.com/padaiyal/jDataStructures</url>
     </repository>
   </distributionManagement>
 

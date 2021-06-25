@@ -11,7 +11,7 @@
   <p align="center">
     A template for Java maven projects.
     <br />
-    <a href="https://github.com/padaiyal/jMavenProjectTemplate/issues/new/choose">Report Bug/Request Feature</a>
+    <a href="https://github.com/padaiyal/jDataStructures/issues/new/choose">Report Bug/Request Feature</a>
   </p>
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -19,16 +19,12 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![Apache License][license-shield]][license-url] <br>
-![Maven build - Ubuntu latest](https://github.com/padaiyal/jMavenProjectTemplate/workflows/Maven%20build%20-%20Ubuntu%20latest/badge.svg?branch=main)
-![Maven build - Windows latest](https://github.com/padaiyal/jMavenProjectTemplate/workflows/Maven%20build%20-%20Windows%20latest/badge.svg?branch=main)
-![Maven build - MacOS latest](https://github.com/padaiyal/jMavenProjectTemplate/workflows/Maven%20build%20-%20MacOS%20latest/badge.svg?branch=main)
-![Publish to GitHub packages](https://github.com/padaiyal/jMavenProjectTemplate/workflows/Publish%20to%20GitHub%20packages/badge.svg)
+![Maven build - Ubuntu latest](https://github.com/padaiyal/jDataStructures/workflows/Maven%20build%20-%20Ubuntu%20latest/badge.svg?branch=main)
+![Maven build - Windows latest](https://github.com/padaiyal/jDataStructures/workflows/Maven%20build%20-%20Windows%20latest/badge.svg?branch=main)
+![Maven build - MacOS latest](https://github.com/padaiyal/jDataStructures/workflows/Maven%20build%20-%20MacOS%20latest/badge.svg?branch=main)
+![Publish to GitHub packages](https://github.com/padaiyal/jDataStructures/workflows/Publish%20to%20GitHub%20packages/badge.svg)
 </div>
 
-<!--
-*** To avoid retyping too much info. Do a search and replace with your text editor for the following:
-    'jMavenProjectTemplate'
- -->
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -54,15 +50,33 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Describe the project.
+A library that contains data structures that are not found in common libraries.
 
 <!-- USAGE -->
 ## Usage
-Specify the steps to set up and use the project.
+This project can be used as a dependency to other projects. To add this as a dependency follow these steps:
+
+1. Download the latest jar for this project from GitHub packages and place it within the dependant project.
+2. Add the following dependency tag to the pom.xml of the dependant project:
+```
+<dependency>
+    <groupId>org.java.padaiyal</groupId>
+    <artifactId>datastructures</artifactId>
+    <version>2021.06.26</version>
+    <scope>system</scope>
+    <systemPath>${basedir}/<PATH_TO_JAR></systemPath>
+</dependency>
+```
+NOTE: Refer the GitHub packages / releases section for this repo to know the latest released version of this project.
+
+Here's a sample snippet showing class conversion from the class' name:
+```
+Tree<Integer> tree = new Tree(189);
+```
 
 <!-- ROADMAP -->
 ## Roadmap
-See the [open issues](https://github.com/padaiyal/jMavenProjectTemplate/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/padaiyal/jDataStructures/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -77,18 +91,18 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- LICENSE -->
 ## License
-Distributed under the Apache License. See [`LICENSE`](https://github.com/padaiyal/jMavenProjectTemplate/blob/main/LICENSE) for more information.
+Distributed under the Apache License. See [`LICENSE`](https://github.com/padaiyal/jDataStructures/blob/main/LICENSE) for more information.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/padaiyal/jMavenProjectTemplate.svg?style=for-the-badge
-[contributors-url]: https://github.com/padaiyal/jMavenProjectTemplate/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/padaiyal/jMavenProjectTemplate.svg?style=for-the-badge
-[forks-url]: https://github.com/padaiyal/jMavenProjectTemplate/network/members
-[stars-shield]: https://img.shields.io/github/stars/padaiyal/jMavenProjectTemplate.svg?style=for-the-badge
-[stars-url]: https://github.com/padaiyal/jMavenProjectTemplate/stargazers
-[issues-shield]: https://img.shields.io/github/issues/padaiyal/jMavenProjectTemplate.svg?style=for-the-badge
-[issues-url]: https://github.com/padaiyal/jMavenProjectTemplate/issues
-[license-shield]: https://img.shields.io/github/license/padaiyal/jMavenProjectTemplate.svg?style=for-the-badge
-[license-url]: https://github.com/padaiyal/jMavenProjectTemplate/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/padaiyal/jDataStructures.svg?style=for-the-badge
+[contributors-url]: https://github.com/padaiyal/jDataStructures/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/padaiyal/jDataStructures.svg?style=for-the-badge
+[forks-url]: https://github.com/padaiyal/jDataStructures/network/members
+[stars-shield]: https://img.shields.io/github/stars/padaiyal/jDataStructures.svg?style=for-the-badge
+[stars-url]: https://github.com/padaiyal/jDataStructures/stargazers
+[issues-shield]: https://img.shields.io/github/issues/padaiyal/jDataStructures.svg?style=for-the-badge
+[issues-url]: https://github.com/padaiyal/jDataStructures/issues
+[license-shield]: https://img.shields.io/github/license/padaiyal/jDataStructures.svg?style=for-the-badge
+[license-url]: https://github.com/padaiyal/jDataStructures/blob/master/LICENSE
